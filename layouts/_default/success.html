@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+
+  {{ partial "navbar.html" . }}
+
+  <div class="success-page">
+    <div class="container">
+      <div class="success-icon">✓</div>
+      <h1 class="headline-medium">Thank you!</h1>
+      <p class="subtitle">Your CO2AIR is on its way. We'll send a confirmation email with tracking details shortly.</p>
+      <a href="/" class="btn btn-primary btn-large">Back to homepage</a>
+    </div>
+  </div>
+
+  {{ partial "footer.html" . }}
+
+</body>
+</html>

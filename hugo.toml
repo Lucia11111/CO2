@@ -1,0 +1,38 @@
+baseURL = "https://co2air.com/"
+title = "CO2AIR"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      description = "Wearable CO2 sensor. Breathe smarter."
+  [languages.cs]
+    languageCode = "cs"
+    languageName = "Čeština"
+    weight = 2
+    [languages.cs.params]
+      description = "Nositelný CO2 senzor. Dýchejte chytřeji."
+
+[params]
+  tagline = "Breathe smarter."
+  price = "€89"
+  stripePublishableKey = "pk_test_XXXXXXXXXXXXXXXXXXXXXXXX"
+  stripePriceId = "price_XXXXXXXXXXXXXXXXXXXXXXXX"
+  successURL = "/success/"
+  cancelURL = "/"
+  shippingInfo = "Free shipping across Europe. Delivery in 3–5 business days."
+  companyName = "CO2AIR s.r.o."
+  companyAddress = "Prague, Czech Republic"
+  contactEmail = "hello@co2air.com"
+
+[taxonomies]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

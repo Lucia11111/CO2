@@ -1,0 +1,20 @@
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-left">
+      <a href="/" class="nav-logo">CO2<span style="color: var(--green);">AIR</span></a>
+      <p>{{ .Site.Params.companyName }}<br>{{ .Site.Params.companyAddress }}</p>
+      <p><a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a></p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#features">Features</a>
+      <a href="#specs">Specs</a>
+      <a href="#buy">Buy</a>
+      <a href="mailto:{{ .Site.Params.contactEmail }}">Contact</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; {{ now.Year }} {{ .Site.Params.companyName }} All rights reserved.</p>
+  </div>
+</footer>
